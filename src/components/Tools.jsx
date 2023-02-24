@@ -1,5 +1,5 @@
 import React from 'react'
-import {db} from '../util/firebase'
+import {db} from '../../util/firebase'
 import { collection, getDocs } from "firebase/firestore";
 const querySnapshot = await getDocs(collection(db, "tools"));
 querySnapshot.forEach((doc) => {
