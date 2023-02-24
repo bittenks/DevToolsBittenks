@@ -23,13 +23,13 @@ const [tools, setTools] = useState();
     }, []);
 
 return (
-  <>
+  <div className='flex'>
          {tools?.map((tool) => (
           <Tools
             key={tool.id}
             tool={tool}
           />
         ))}
-        </>
+        </div>
 );
 }
