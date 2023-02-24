@@ -3,7 +3,8 @@ import React from "react"
 export default function Footer() {
   return (
     <>
-      <footer className="absolute bottom-0 w-full text-slate-400">
+    <div className="mt-56">
+      <footer className="fixed mt-56 bottom-0 w-full text-slate-400">
         <div className="py-4 text-sm border-t border-slate-900 bg-slate-700">
           <div className="container px-6 mx-auto">
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
@@ -32,6 +33,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </>
+      </div></>
   )
 }

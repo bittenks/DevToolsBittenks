@@ -23,7 +23,7 @@ const [tools, setTools] = useState();
     }, []);
 
 return (
-  <div className='flex'>
+  <div className='grid grid-cols-4 gap-4'>
          {tools?.map((tool) => (
           <Tools
             key={tool.id}
