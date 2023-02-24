@@ -14,7 +14,7 @@ export default function Tools({tool}) {
         <a href={tool.link} target="_blank">
 
                 <h3 className="text-xl font-medium text-slate-700 hover:text-slate-400">
-                  {tool.title}
+                  {tool.title} 🔗
                 </h3>
                 </a>
                 <p className="text-sm text-slate-400">{Date(tool.createtAt*1000)}</p>
