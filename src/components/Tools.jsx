@@ -8,7 +8,7 @@ querySnapshot.forEach((doc) => {
 export default function Tools({tool}) {
   return (
         <>
-          <div className="ml-3 mt-6 overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-200 w-60"  >
+          <div className="ml-3 flex justify-center mt-6  bg-white rounded shadow-md text-slate-500 shadow-slate-200 w-60"  >
             <div className="p-6">
               <header className="mb-4">
         <a href={tool.link} target="_blank">
